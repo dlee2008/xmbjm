@@ -2148,6 +2148,15 @@
             "playerType": 2,
             "timeout": 10
         },
+ {
+      "name": "拾光影城",
+      "type": 0,
+      "url": "https://4708.kstore.space/omg/tv.txt",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.cn/tv/{name}.png",
+      "playerType": 2,
+      "timeout": 10
+    },
         {
             "name": "电视Live",
             "type": 0,
