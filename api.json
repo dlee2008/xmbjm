@@ -12,7 +12,7 @@
         },
         {
             "key": "预告",
-            "name": "新片｜预告",
+            "name": "新片｜潇洒",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
@@ -62,6 +62,7 @@
                 "danmu": true
             }
         },
+
         {
             "key": "天天弹幕",
             "name": "天天｜弹幕",
@@ -550,6 +551,16 @@
             "filterable": 1,
             "ext": "./XYQHiker/短剧屋.json"
         },
+{
+            "key": "皮皮虾影视app",
+            "name": "回忆虾｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.ppxys.cc:443/api.php/app/"
+        },
         {
             "key": "韩小圈",
             "name": "韩小圈｜APP",
@@ -849,10 +860,8 @@
             "key": "瓜子影视",
             "name": "瓜子｜影视",
             "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/瓜子影视.js"
         },
         {
             "key": "奇优影视",
@@ -1749,6 +1758,7 @@
                 "type": "list"
             }
         },
+       
         {
             "key": "push_agent",
             "name": "手机｜推送",
@@ -2113,16 +2123,15 @@
         }
     ],
     "lives": [
-        {
+{
             "name": "IPV4",
             "type": 0,
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
         },
-       
         {
-            "name": "AI直播",
+            "name": "拾光AI",
             "type": 0,
             "url": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
@@ -2130,15 +2139,15 @@
             "playerType": 2,
             "timeout": 10
         },
- {
-      "name": "拾光影城",
-      "type": 0,
-      "url": "https://4708.kstore.space/omg/tv.txt",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/{name}.png",
-      "playerType": 2,
-      "timeout": 10
-    },
+        {
+            "name": "潇洒AI",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "playerType": 2,
+            "timeout": 10
+        },
         {
             "name": "电视Live",
             "type": 0,
