@@ -12,17 +12,26 @@
         },
         {
             "key": "预告",
-            "name": "新片｜潇洒",
+            "name": "新片｜你好",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
         },
         {
             "key": "本地",
-            "name": "本地｜视频",
+            "name": "本地｜乐趣",
             "type": 3,
             "api": "csp_LocalFile"
         },
+ {
+      "key": "直播转点播",
+      "name": "直播｜点播",
+      "type": 4,
+      "api": "http://zhangqun66.com/zh/2241-2.php",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "1,2,3,4,5,6"
+    },
         {
             "key": "配置中心",
             "name": "配置｜中心",
@@ -62,7 +71,6 @@
                 "danmu": true
             }
         },
-
         {
             "key": "天天弹幕",
             "name": "天天｜弹幕",
@@ -551,16 +559,6 @@
             "filterable": 1,
             "ext": "./XYQHiker/短剧屋.json"
         },
-{
-            "key": "皮皮虾影视app",
-            "name": "回忆虾｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.ppxys.cc:443/api.php/app/"
-        },
         {
             "key": "韩小圈",
             "name": "韩小圈｜APP",
@@ -613,6 +611,14 @@
             "playerType": 2
         },
         {
+            "key": "世纪",
+            "name": "世纪｜APP",
+            "type": 3,
+            "api": "csp_Drama",
+            "playerType": 2,
+            "ext": "saHR0cDovLzExMC40Mi40OS42ODo4OTAwfENEQjZXTU5BTVhCRFNGRFVVS1hJRU1PMVVHMU1VTEoxfDJDMUEwNkUxOTdFRjEwQ0YzRjYwNThDQTdBODAzQjVafDIw"
+        },
+        {
             "key": "图图",
             "name": "图图｜App",
             "type": 3,
@@ -634,7 +640,15 @@
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
-            "ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
+            "ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
+        },
+        {
+            "key": "荣荣",
+            "name": "荣荣｜App",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"
         },
         {
             "key": "永夜",
@@ -645,12 +659,12 @@
             "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
         },
         {
-            "key": "荣荣",
-            "name": "荣荣｜App",
+            "key": "时常",
+            "name": "时常｜App",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"
+            "ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
         },
         {
             "key": "雨滴",
@@ -682,7 +696,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
+            "ext": "jaHR0cHM6Ly9jajJkOGFvdzI2Ym85OTgyb3AxMi5ieXRlaW1nLnN0b3JlOjU2ODl8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="
         },
         {
             "key": "客星",
@@ -1270,6 +1284,44 @@
                 "欧美综艺"
             ]
         },
+ {
+      "key": "旺旺短剧",
+      "name": "短剧｜合集",
+      "type": 1,
+      "api": "http://zhangqun1818.serv00.net:5052",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "克隆合集",
+      "name": "克隆｜合集",
+      "type": 4,
+      "api": "http://zhangqun66.com/klhj.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "采集集合go",
+      "name": "采集｜合集",
+      "type": 1,
+      "api": "http://zhangqun1818.serv00.net:5053",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
         {
             "key": "哆啦新番社",
             "name": "哆啦｜新番社",
@@ -1758,7 +1810,7 @@
                 "type": "list"
             }
         },
-       
+        
         {
             "key": "push_agent",
             "name": "手机｜推送",
@@ -2123,13 +2175,6 @@
         }
     ],
     "lives": [
-{
-            "name": "IPV4",
-            "type": 0,
-            "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-            "playerType": 2,
-            "timeout": 10
-        },
         {
             "name": "拾光AI",
             "type": 0,
