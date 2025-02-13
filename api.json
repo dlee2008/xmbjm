@@ -1,6 +1,6 @@
 ﻿{
     "spider": "./spider.jar",
-    "wallpaper": "http://wenxintongxue.serv00.net/image",
+    "wallpaper": "https://sgmao.serv00.net/image/",
     "logo": "https://4708.kstore.space/logo.gif",
     "sites": [
         {
@@ -238,13 +238,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/梦米弹幕.js"
-        },
-        {
-            "key": "小虎斑弹幕",
-            "name": "小虎斑｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/小虎斑弹幕.js"
         },
         {
             "key": "三六零弹幕",
@@ -1924,7 +1917,8 @@
             "style": {
                 "type": "list"
             }
-        },      
+        },
+
         {
             "key": "push_agent",
             "name": "手机｜推送",
