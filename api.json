@@ -102,18 +102,6 @@
             }
         },
         {
-            "key": "糯米弹幕",
-            "name": "糯米｜弹幕",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "文才弹幕",
             "name": "文才｜弹幕",
             "type": 3,
@@ -390,22 +378,6 @@
             }
         },
         {
-            "key": "夸克木偶弹幕",
-            "name": "木偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://www.91muou.icu",
-                "danmu": true
-            }
-        },
-        {
             "key": "夸克六趣弹幕",
             "name": "六趣｜4K弹幕",
             "type": 3,
@@ -451,6 +423,22 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://txfpan.top",
+                "danmu": true
+            }
+        },
+{
+            "key": "夸克木偶弹幕",
+            "name": "木偶｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://91muou.icu",
                 "danmu": true
             }
         },
@@ -585,7 +573,7 @@
         },
         {
             "key": "巧技",
-            "name": "巧技｜App",
+            "name": "巧技｜APP",
             "type": 3,
             "api": "csp_qiao2",
             "playerType": 2,
@@ -593,15 +581,23 @@
         },
         {
             "key": "木头",
-            "name": "木头｜App",
+            "name": "木头｜APP",
             "type": 3,
             "api": "csp_Shark",
             "playerType": 1,
             "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
         },
         {
+            "key": "永夜",
+            "name": "永夜｜App",
+            "type": 3,
+            "api": "csp_Muou",
+            "playerType": 2,
+            "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
+        },
+        {
             "key": "星河",
-            "name": "星河｜App",
+            "name": "星河｜APP",
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
@@ -609,7 +605,7 @@
         },
         {
             "key": "时常",
-            "name": "时常｜App",
+            "name": "时常｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -617,7 +613,7 @@
         },
         {
             "key": "雨滴",
-            "name": "雨滴｜App",
+            "name": "雨滴｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -625,7 +621,7 @@
         },
         {
             "key": "现代",
-            "name": "现代｜App",
+            "name": "现代｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -633,7 +629,7 @@
         },
         {
             "key": "玉米",
-            "name": "玉米｜App",
+            "name": "玉米｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -641,7 +637,7 @@
         },
         {
             "key": "优质",
-            "name": "优质｜App",
+            "name": "优质｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -649,7 +645,7 @@
         },
         {
             "key": "木叶",
-            "name": "木叶｜App",
+            "name": "木叶｜APP",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 2,
@@ -657,7 +653,7 @@
         },
         {
             "key": "蝴蝶",
-            "name": "蝴蝶｜App",
+            "name": "蝴蝶｜APP",
             "type": 3,
             "api": "csp_Hudie",
             "playerType": 2,
@@ -665,7 +661,7 @@
         },
         {
             "key": "蚂蚁",
-            "name": "蚂蚁｜App",
+            "name": "蚂蚁｜APP",
             "type": 3,
             "api": "csp_Mayiys",
             "searchable": 1,
@@ -842,13 +838,14 @@
             "filterable": 1
         },
         {
-            "key": "南瓜影视",
-            "name": "南瓜｜影视",
+            "key": "农民影视",
+            "name": "农民｜影视",
             "type": 3,
-            "api": "csp_NanGua",
+            "api": "csp_Wwys",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://m.wwgz.cn"
         },
         {
             "key": "低端影视",
@@ -891,15 +888,6 @@
             "name": "樱花｜影视",
             "type": 3,
             "api": "csp_Lggys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "饺子影视",
-            "name": "饺子｜影视",
-            "type": 3,
-            "api": "csp_Jiaozi",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1471,7 +1459,7 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/樱花动漫.js"
         },
-        {
+{
             "key": "看球",
             "name": "一起｜看球",
             "type": 3,
@@ -1481,6 +1469,67 @@
                 "type": "list"
             }
         },
+{
+			"key": "央视大全",
+			"name": "央视｜大全",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/央视大全.js"
+		},
+		
+		{
+			"key": "央视经济",
+			"name": "央视｜经济",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/央视经济.js"
+		},
+		
+		{
+			"key": "央视新闻",
+			"name": "央视｜新闻",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/央视新闻.js"
+		},
+		
+		
+		
+		{
+			"key": "央视少儿",
+			"name": "央视｜少儿",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/央视少儿.js"
+		},
+		
+		{
+			"key": "央视综合",
+			"name": "央视｜综合",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/央视综合.js"
+		},
 {
             "key": "88看球",
             "name": "88｜看球",
@@ -1532,6 +1581,13 @@
             "ext": "./JS/JRKAN直播.js"
         },
 {
+            "key": "网络直播",
+            "name": "网络｜直播",
+            "type": 3,
+            "api": "csp_Living",
+            "searchable": 1
+        },
+{
             "key": "快手直播",
             "name": "快手｜直播",
             "type": 3,
@@ -1544,41 +1600,22 @@
                 "ratio": 1.597
             }
         },
-        {
-            "key": "抖音直播",
-            "name": "抖音｜直播",
-            "type": 3,
-            "api": "csp_AmuDouYin",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-         {
-      "key": "虎牙直播js",
+{
+      "key": "虎牙",
       "name": "虎牙｜直播",
       "type": 3,
-      "api": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-      "ext": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.755
-      },
-      "playerType": "2",
+      "api": "./drpy_libs/drpy22.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0
+      "filterable": 1,
+      "ext": "./JS/huyazhibo.js"
     },
     {
       "key": "斗鱼js",
       "name": "斗鱼｜直播",
       "type": 3,
-      "api": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
+      "api": "./drpy_libs/drpy22.min.js",
+      "ext": "./JS/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -1588,20 +1625,59 @@
       "quickSearch": 0,
       "changeable": 0
     },
+{
+			"key": "hipy_js_中华听书网[听]",
+			"name": "听书｜小说",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/中华听书网[听].js"
+		},
+		
+    
     {
-      "key": "有声小说js",
-      "name": "有声｜小说",
+      "key": "博看听书",
+      "name": "博看｜小说",
       "type": 3,
-      "api": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghproxy.net/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
+      "api": "./drpy_libs/drpy22.min.js",
+      "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "ext": "./JS/博看听书.js"
     },
+    {
+      "key": "六月听书",
+      "name": "六月｜小说",
+      "type": 3,
+      "api": "./drpy_libs/drpy22.min.js",
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "./JS/六月听书.js"
+    },
+    
+    
+		
+		{
+			"key": "hipy_js_爱上你听书网[听]",
+			"name": "爱上｜小说",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/爱上你听书网[听].js"
+		},
+        
+    
         {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
@@ -1866,19 +1942,6 @@
             }
         },
         {
-            "key": "AList",
-            "name": "AList｜合集",
-            "type": 3,
-            "api": "csp_AList",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
-        },
-        {
             "key": "阿里合集",
             "name": "阿里｜合集",
             "type": 3,
@@ -1906,11 +1969,17 @@
             }
         },
         {
-            "key": "网络直播",
-            "name": "网络｜直播",
+            "key": "AList",
+            "name": "AList｜合集",
             "type": 3,
-            "api": "csp_Living",
-            "searchable": 1
+            "api": "csp_AList",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "ext": "./JSON/alist.json"
         },
         {
             "key": "push_agent",
@@ -2286,7 +2355,7 @@
     ],
     "lives": [
         {
-            "name": "ITV",
+            "name": "ITV频道",
             "type": 0,
             "url": "./ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
@@ -2335,7 +2404,6 @@
       "url": "https://gitlab.com/hewittchoi/tvlist/-/raw/main/updated.txt",
       "playerType": 1
     },
-
         {
             "name": "范明明",
             "type": 0,
