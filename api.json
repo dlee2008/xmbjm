@@ -377,6 +377,7 @@
                 "danmu": true
             }
         },
+        
         {
             "key": "夸克六趣弹幕",
             "name": "六趣｜4K弹幕",
@@ -438,7 +439,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://91muou.icu",
+                "site": "http://tv.91muou.icu",
                 "danmu": true
             }
         },
@@ -604,6 +605,14 @@
             "ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
         },
         {
+            "key": "二三",
+            "name": "二三｜App",
+            "type": 3,
+            "api": "csp_Muou",
+            "playerType": 2,
+            "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
+        },
+        {
             "key": "时常",
             "name": "时常｜APP",
             "type": 3,
@@ -750,6 +759,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "KhY021WelCEl+6MsvwnzaLK5sgGhHBhBszPP7EvqSfdVqJTIDGrV0xPZiB/0I8O9mrMKS+cdzxqKP83dFJJyyyb8D0J0ZVtM/ds4xb/4dA=="
+        },
+        {
+            "key": "移动",
+            "name": "移动｜APP",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "小米尘落",
@@ -1460,16 +1477,6 @@
             "ext": "./JS/樱花动漫.js"
         },
 {
-            "key": "看球",
-            "name": "一起｜看球",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-{
 			"key": "央视大全",
 			"name": "央视｜大全",
 			"type": 3,
@@ -1530,6 +1537,16 @@
 			"order_num": 0,
 			"ext": "./JS/央视综合.js"
 		},
+{
+            "key": "看球",
+            "name": "一起｜看球",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
 {
             "key": "88看球",
             "name": "88｜看球",
@@ -1624,19 +1641,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
-    },
-{
-			"key": "hipy_js_中华听书网[听]",
-			"name": "听书｜小说",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./JS/中华听书网[听].js"
-		},
-		
+    },		
     
     {
       "key": "博看听书",
@@ -1662,6 +1667,20 @@
       },
       "ext": "./JS/六月听书.js"
     },
+ {
+      "key": "有声小说",
+      "name": "有声｜小说",
+      "type": 3,
+      "api": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
     
     
 		
@@ -1676,8 +1695,17 @@
 			"order_num": 0,
 			"ext": "./JS/爱上你听书网[听].js"
 		},
-        
-    
+{
+			"key": "hipy_js_中华听书网[听]",
+			"name": "听书｜小说",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./JS/中华听书网[听].js"
+		},
         {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
@@ -1769,6 +1797,19 @@
             "changeable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "danmu": true
+            }
+        },
+        {
+            "key": "荐片",
+            "name": "荐片｜磁力",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 1,
+            "ext": {
                 "danmu": true
             }
         },
@@ -2355,7 +2396,7 @@
     ],
     "lives": [
         {
-            "name": "ITV频道",
+            "name": "ITV",
             "type": 0,
             "url": "./ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
@@ -2363,7 +2404,7 @@
             "timeout": "3",
             "playerType": 2
         },
-{
+        {
             "name": "AI拾光",
             "type": 0,
             "url": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/TV/master/output/user_result.txt",
