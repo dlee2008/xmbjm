@@ -368,7 +368,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://mogg1.banye.tech:7777",
+                "site": "http://muou.6qu.top",
                 "danmu": true
             }
         },
@@ -539,6 +539,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
+        },
+        {
+            "key": "巧技",
+            "name": "巧技｜APP",
+            "type": 3,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
         },
         {
             "key": "木头",
@@ -744,6 +752,15 @@
             "ext": "https://m.wwgz.cn"
         },
         {
+            "key": "低端影视",
+            "name": "低端｜影视",
+            "type": 3,
+            "api": "csp_Ddys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "快看影视",
             "name": "快看｜影视",
             "type": 3,
@@ -885,6 +902,13 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/思古影视.js"
+        },
+        {
+            "key": "魔力高清",
+            "name": "魔力｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/魔力高清.js"
         },
         {
             "key": "碟调影视",
@@ -1321,20 +1345,7 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/樱花动漫.js"
         },
-        {
-            "key": "搜索弹幕",
-            "name": "搜索｜弹幕",
-            "type": 3,
-            "api": "csp_PanSearch",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
-            }
-        },
-               {
+{
 			"key": "央视大全",
 			"name": "央视｜大全",
 			"type": 3,
@@ -1500,19 +1511,6 @@
       "quickSearch": 0,
       "changeable": 0
     },		
-    
-    {
-      "key": "博看听书",
-      "name": "博看｜小说",
-      "type": 3,
-      "api": "./drpy_libs/drpy22.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "./JS/博看听书.js"
-    },
     {
       "key": "六月听书",
       "name": "六月｜小说",
@@ -1564,7 +1562,19 @@
 			"order_num": 0,
 			"ext": "./JS/中华听书网[听].js"
 		},
-
+        {
+            "key": "搜索弹幕",
+            "name": "搜索｜弹幕",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "danmu": true
+            }
+        },
         {
             "key": "易搜弹幕",
             "name": "易搜｜弹幕",
@@ -1868,7 +1878,6 @@
             },
             "ext": "./JSON/alist.json"
         },
-        
         {
             "key": "push_agent",
             "name": "手机｜推送",
@@ -2131,6 +2140,15 @@
         }
     ],
     "lives": [
+ {
+            "name": "AI拾光",
+            "type": 0,
+            "url": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "playerType": 2,
+            "timeout": 10
+        },
         {
             "name": "ITV",
             "type": 0,
@@ -2140,18 +2158,7 @@
             "timeout": 3,
             "playerType": 2
         },
-        
-        {
-            "name": "AI拾光",
-            "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/TV/master/output/user_result.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 2,
-            "timeout": 10
-        },
-
-{
+       {
       "name": "拾光频道",
       "type": 0,
       "url": "https://4708.kstore.space/omg/tv.txt",
@@ -2181,6 +2188,16 @@
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
+        },
+        {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
         }
     ],
     "hosts": [
